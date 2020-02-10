@@ -1,0 +1,901 @@
+
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.css"
+    />
+    <!-- Magnific Popup -->
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>
+      Marketing and Lead Generation for Biz
+    </title>
+
+   
+    
+    <style>
+      .selectize-control.multi .selectize-input > div {
+        cursor: pointer;
+        margin: 0 3px 3px 0;
+        padding: 2px 6px;
+        background: #30707e;
+        color: #eff7ff;
+        border: 0 solid #d0d0d0;
+      }
+
+      .Labl {
+        line-height: 20px;
+        font-weight: 600;
+        color: #777;
+        margin-top: 1rem;
+      }
+
+      .fld {
+        border-bottom: 1px solid #43aac8 !important;
+        border: none;
+        outline: 0 !important;
+        font-size: 0.85rem;
+        margin-top: 3px;
+        background: #fff;
+      }
+
+      /* .video-hover-heading{
+
+      /* navbar mobile view start */
+      .custom-toggler.navbar-toggler {
+        border-color: #727c90;
+      }
+
+      .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+
+      /* navbar mobile view  end*/
+
+      /* bubble start */
+
+      .dec1,
+      .dec2,
+      .dec3 {
+        border-radius: 50%;
+      }
+
+      .getstart-form-dec:before {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        background-color: #3297a0;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+
+      .dec2,
+      .dec3 {
+        opacity: 0.32;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #0009, #9c9c9c);
+      }
+
+      .dec1,
+      .dec2 {
+        background: linear-gradient(90deg, #ffffff, #9c9c9c);
+        border-radius: 50%;
+      }
+
+      .dec1 {
+        width: 220px;
+        height: 220px;
+        background: linear-gradient(90deg, #ffffff, #000000);
+        opacity: 0.4;
+        border-radius: 50%;
+        right: -137px;
+        top: 50px;
+      }
+
+      .dec2 {
+        background: linear-gradient(90deg, #ffffff, #000000);
+        /* background: linear-gradient(90deg, #ffffff, #9c9c9c); */
+        right: 0;
+        width: 132px;
+        height: 132px;
+        opacity: 0.32;
+        top: 755px;
+        right: 30px;
+      }
+
+      .dec3 {
+        width: 219px;
+        height: 219px;
+        opacity: 0.32;
+        border-radius: 50%;
+        top: 325px;
+        left: -140px;
+      }
+
+      .getstart-form-dec {
+        position: absolute;
+      }
+
+      a,
+      u {
+        text-decoration: none !important;
+      }
+
+      /* bubble end */
+
+      .getstart-banner-list-text {
+        overflow: hidden;
+        color: #dcdcdc;
+        background-color: #38887a;
+        padding: 1rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+
+     
+    </style>
+
+    <style>
+      /* bubble animation start */
+      #background-wrap {
+        bottom: 0;
+        left: 0;
+
+        right: 0;
+        top: 0;
+        z-index: -1;
+      }
+
+      /* KEYFRAMES */
+
+      @-webkit-keyframes animateBubble {
+        0% {
+          margin-top: 0px;
+        }
+
+        100% {
+          margin-top: 100%;
+        }
+      }
+
+      @-moz-keyframes animateBubble {
+        0% {
+          margin-top: 0px;
+        }
+
+        100% {
+          margin-top: 100%;
+        }
+      }
+
+      @keyframes animateBubble {
+        0% {
+          margin-top: 0px;
+        }
+
+        100% {
+          margin-top: 100%;
+        }
+      }
+
+      @-webkit-keyframes sideWays {
+        0% {
+          margin-left: 0px;
+        }
+
+        100% {
+          margin-left: 50px;
+        }
+      }
+
+      @-moz-keyframes sideWays {
+        0% {
+          margin-left: 0px;
+        }
+
+        100% {
+          margin-left: 50px;
+        }
+      }
+
+      @keyframes sideWays {
+        0% {
+          margin-left: 0px;
+        }
+
+        100% {
+          margin-left: 50px;
+        }
+      }
+
+      /* ANIMATIONS */
+
+      .x1 {
+        -webkit-animation: animateBubble 7s linear infinite;
+        -moz-animation: animateBubble 7s linear infinite;
+        animation: animateBubble 7s linear infinite;
+
+        left: -5%;
+        top: 5%;
+      }
+
+      .x2 {
+        -webkit-animation: animateBubble 8s linear infinite;
+        -moz-animation: animateBubble 8s linear infinite;
+        animation: animateBubble 8s linear infinite;
+
+        left: 5%;
+        top: 80%;
+
+      }
+
+      .x3 {
+        -webkit-animation: animateBubble 7s linear infinite;
+        -moz-animation: animateBubble 7s linear infinite;
+        animation: animateBubble 7s linear infinite;
+
+        left: 10%;
+        top: 40%;
+
+      }
+
+      .x4 {
+        -webkit-animation: animateBubble 7s linear infinite;
+        -moz-animation: animateBubble 7s linear infinite;
+        animation: animateBubble 7s linear infinite;
+
+        left: 20%;
+        top: 0;
+
+      }
+
+      .x5 {
+        -webkit-animation: animateBubble 8s linear infinite;
+        -moz-animation: animateBubble 8s linear infinite;
+        animation: animateBubble 8s linear infinite;
+
+        left: 30%;
+        top: 50%;
+      }
+
+      .x6 {
+        -webkit-animation: animateBubble 8s linear infinite;
+        -moz-animation: animateBubble 8s linear infinite;
+        animation: animateBubble 8s linear infinite;
+
+        left: 50%;
+        top: 0;
+      }
+
+      .x7 {
+        -webkit-animation: animateBubble 8s linear infinite;
+        -moz-animation: animateBubble 8s linear infinite;
+        animation: animateBubble 8s linear infinite;
+
+        left: 65%;
+        top: 70%;
+
+      }
+
+      .x8 {
+        -webkit-animation: animateBubble 6s linear infinite;
+        -moz-animation: animateBubble 6s linear infinite;
+        animation: animateBubble 6s linear infinite;
+
+        left: 80%;
+        top: 10%;
+
+      }
+
+      .x9 {
+        -webkit-animation: animateBubble 8s linear infinite;
+        -moz-animation: animateBubble 8s linear infinite;
+        animation: animateBubble 8s linear infinite;
+
+        left: 90%;
+        top: 50%;
+      }
+
+      .x10 {
+        -webkit-animation: animateBubble 6s linear infinite;
+        -moz-animation: animateBubble 6s linear infinite;
+        animation: animateBubble 6s linear infinite;
+
+        left: 80%;
+        top: 80%;
+      }
+
+      /* OBJECTS */
+
+      .bubble {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+
+        -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+          inset 0px 10px 30px 5px rgba(105, 176, 173, 1);
+        -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+          inset 0px 10px 30px 5px rgba(105, 176, 173, 1);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+          inset 0px 10px 30px 5px rgba(105, 176, 173, 0.5);
+
+        height: 18px;
+        position: absolute;
+        width: 18px;
+      }
+
+      /* bubble animation end */
+
+      /* zoom start */
+      .zoom {
+        transition: transform 0.2s;
+      }
+
+      .zoom:hover > .zoom-inner {
+        background-color: rgb(255, 255, 255);
+        transform: scale(1.01);
+      }
+
+      .landing-points-description {
+        color: #ffffffa6;
+      }
+
+      .graph-paper {
+        background-color: #ffffff;
+        background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2393e6d1' fill-opacity='0.3' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+    </style>
+  </head>
+
+  <body style="overflow-x: hidden;">
+   <div
+      style=" background-color: transparent;
+        background-image: linear-gradient(135deg, #327d43 0%, #17a2b8 100%);  border-radius: 0px 0px 0px 144px;"
+    >
+      <!-- navbar start -->
+      <nav class="navbar navbar-expand-lg " style=" ">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.oltify.com/wp-content/uploads/2019/10/olti-fy.png"
+            style="position:absolute;top: 26px;left: 30px;width: 50px;padding: 3px;z-index: 999;"
+          />
+        </a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav " style="text-align: right;">
+         
+            <li class=" ">
+              <a class="nav-link" href="#" style="color: white;"
+                >FAQ <span class=""></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact" style="color: white;"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- section 1 start -->
+      <div
+        id=""
+        class="container-fluid"
+        style=" font-family: ProximaNova-Bold; padding-bottom: 3rem;  min-height: 765px;  "
+      >
+        <div class="row">
+          <div class="col-md-6 offset-md-3" style="margin-top: 3rem; ">
+            <section class="content">
+              <div
+                class="title"
+                style="font-size: 2.5rem;
+                line-height: 1.24;
+                font-family: -apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,sans-serif;
+                font-weight: 700;
+                word-spacing: .1em;
+                color: #dcdcdc;
+              "
+              >
+                Promote your Business <br />
+                around the Web
+              </div>
+              <div
+                class="sub-title"
+                style="
+            margin-top: 1.5rem;
+            font-size: 1.3rem;
+            line-height: 1.24;
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,sans-serif;
+            font-weight: 500;
+            word-spacing: .1em;
+            margin-bottom: 2rem;
+            color: #111;
+            "
+              >
+                across Platforms, Sites, Audience Avenues..
+              </div>
+            </section>
+
+            <div class="col-md-10" style="padding:0;">
+              <div class="details">
+                <div
+                  style="
+              position: relative;
+              line-height: 1.2;
+              margin-bottom: .8em;
+              word-spacing: 0;
+              font-size: 17px;
+              
+              text-align: left; "
+                >
+                  <a href="#collapseOne" data-toggle="collapse">
+                    <div class="getstart-banner-list-text">
+                      Customised
+                      <span style="margin-right: 1rem; float:right"
+                        ><i
+                          class="	fa fa-angle-right"
+                          aria-hidden="true"
+                          style="color: white;font-size: 1.3rem;opacity: .5;"
+                        ></i
+                      ></span>
+                    </div>
+                  </a>
+                  <div id="collapseOne" class="collapse">
+                    <div class="card-body landing-points-description">
+                      <b>Answer:</b> It works using the Bootstrap 4 collapse
+                      component with cards to make a vertical accordion that
+                      expands and collapses as questions are toggled.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="details">
+                <div
+                  style="
+              position: relative;
+              line-height: 1.2;
+              margin-bottom: .8em;
+              word-spacing: 0;
+              font-size: 17px;
+              
+              text-align: left; "
+                >
+                  <a href="#collapseTwo" data-toggle="collapse">
+                    <div class="getstart-banner-list-text">
+                      Customised
+                      <span style="margin-right: 1rem; float:right"
+                        ><i
+                          class="	fa fa-angle-right"
+                          aria-hidden="true"
+                          style="color: white;font-size: 1.3rem;opacity: .5;"
+                        ></i
+                      ></span>
+                    </div>
+                  </a>
+                  <div id="collapseTwo" class="collapse">
+                    <div class="card-body landing-points-description ">
+                      <b>Answer:</b> It works using the Bootstrap 4 collapse
+                      component with cards to make a vertical accordion that
+                      expands and collapses as questions are toggled.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="details">
+                <div
+                  style="
+              position: relative;
+              line-height: 1.2;
+              margin-bottom: .8em;
+              word-spacing: 0;
+              font-size: 17px;
+              
+              text-align: left; "
+                >
+                  <a href="#collapseThree" data-toggle="collapse">
+                    <div class="getstart-banner-list-text">
+                      Any Budget
+                      <span style="margin-right: 1rem; float:right"
+                        ><i
+                          class="	fa fa-angle-right"
+                          aria-hidden="true"
+                          style="color: white;font-size: 1.3rem;opacity: .5;"
+                        ></i
+                      ></span>
+                    </div>
+                  </a>
+                  <div id="collapseThree" class="collapse">
+                    <div class="card-body landing-points-description">
+                      <b>Answer:</b> It works using the Bootstrap 4 collapse
+                      component with cards to make a vertical accordion that
+                      expands and collapses as questions are toggled.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#faq">
+                <button
+                  class="btn"
+                  style="
+              font-size: 1.3rem;
+              min-width: 120px;
+              height: 40px;
+              line-height: 40px;
+              background-color: #dcdcdc;
+              border: 0;
+              border-radius: 20px;
+              font-family: inherit;
+              padding: 0 15px;
+              margin-top: 2rem;
+              color: #114e58;
+              font-weight: 600;
+              "
+                >
+                  FAQ
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 1 end -->
+    </div>
+
+    <!-- lead-form-start -->
+    <div class="container" style="margin-top: 3rem;">
+      <div class="row" style="padding: 2rem;">
+        <div class="col-lg-6 offset-lg-3">
+          <div
+            style="   color: #308192;
+      text-align: left;
+      font-size: 2rem;
+      font-weight: 600;"
+          >
+            Let's Get Started
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 ">
+          <!-- action="../lead-form" -->
+          <form
+            style="border: 3px solid #f7f7f7; padding:3rem;"
+            id="customer_details"
+            method="POST"
+            action="../pyb-2"
+          >
+            <div class="form-group">
+              <label class="Labl">What business are you into?</label>
+              <br />
+              <select name="biz" id="biz" onchange="checkOthers(this)"> 
+                <option  value="Retail">Retail</option> 
+                <option value="Manufactures"> Manufactures</option> 
+                <option value="PG">Paying Guest</option> 
+                <option value="Education">Education</option> 
+                <option value="Others">Others</option>
+              </select> 
+              <!-- <input type="text" id="id" name="id" value=""style=""/> -->
+              <input type="text" id="bizothers" name="bizothers" value="" visible ="hidden"  />
+            </div>
+            <div class="form-group">
+              <label for="locations" class="Labl"
+                >Target/Business Locations</label
+              >
+              <br />
+              <input type="text" id="locations" name="locations" value="" />
+            </div>
+            <div class="form-group">
+              <label for="website" class="Labl">Website</label>
+              <input type="text" id="website"  name="website" class="form-control fld" required="true" />
+            </div>
+            <input type="hidden" id="promoid" name="promoid" value="<?php echo $promoid ?>" />
+            <button
+              type="submit" class="btn"
+              style="float: right;background: #30707e!important; color: #fff!important; font-size: .8rem; font-weight: 600!important; border-radius: 4px; border: 1px solid #e6e6e6; height: 2rem; padding: 5px 15px!important; "
+            >
+              Next
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- lead-form-end -->
+
+    <!-- bg-circles-start  -->
+    <div class="getstart-form-dec dec1"></div>
+    <div class="getstart-form-dec dec2"></div>
+    <div class="getstart-form-dec dec3"></div>
+    <!-- bg-circles-end -->
+
+    <!-- faq start  -->
+    <div
+      id="faq"
+      class="container-fluid graph-paper"
+      style="margin-top: 4rem; margin-bottom: 2rem; "
+    >
+      <div class="row" style="padding: 2rem;">
+        <div class="col-lg-6 offset-lg-3">
+          <div
+            style="   color: #308192;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 600;"
+          >
+            Frequently Asked Questions
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div style=" ">
+            <a href="#faq1" data-toggle="collapse">
+              <div
+                style="border-top: 1px solid #f1f1f1; padding:1.5rem; color: black;"
+              >
+                What is X?
+                <span style="margin-right: 1rem; float:right"
+                  ><i
+                    class="	fa fa-angle-down"
+                    aria-hidden="true"
+                    style="color: black;font-size: 1.3rem;opacity: .5;"
+                  ></i
+                ></span>
+              </div>
+            </a>
+
+            <div id="faq1" class="collapse">
+              <div class="card-body ">
+                <b>Answer:</b> It works using the Bootstrap 4 collapse component
+                with cards to make a vertical accordion that expands and
+                collapses as questions are toggled.
+              </div>
+            </div>
+          </div>
+          <div style=" ">
+            <a href="#faq2" data-toggle="collapse">
+              <div
+                style="border-top: 1px solid #f1f1f1; padding:1.5rem;  color: black;"
+              >
+                What is X?
+                <span style="margin-right: 1rem; float:right"
+                  ><i
+                    class="	fa fa-angle-down"
+                    aria-hidden="true"
+                    style="color: black;font-size: 1.3rem;opacity: .5;"
+                  ></i
+                ></span>
+              </div>
+            </a>
+
+            <div id="faq2" class="collapse">
+              <div class="card-body " style="border-bottom: 1px solid #f1f1f1;">
+                <b>Answer:</b> It works using the Bootstrap 4 collapse component
+                with cards to make a vertical accordion that expands and
+                collapses as questions are toggled.
+              </div>
+            </div>
+          </div>
+          <div style=" ">
+            <a href="#faq3" data-toggle="collapse">
+              <div
+                style="border-top: 1px solid #f1f1f1; padding:1.5rem; color: black;"
+              >
+                What is X?
+                <span style="margin-right: 1rem; float:right"
+                  ><i
+                    class="	fa fa-angle-down"
+                    aria-hidden="true"
+                    style="color: black;font-size: 1.3rem;opacity: .5;"
+                  ></i
+                ></span>
+              </div>
+            </a>
+            <div id="faq3" class="collapse">
+              <div
+                class="card-body "
+                style="border-bottom: 1px solid #f1f1f1; "
+              >
+                <b>Answer:</b> It works using the Bootstrap 4 collapse component
+                with cards to make a vertical accordion that expands and
+                collapses as questions are toggled.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- faq end  -->
+
+    <div id="background-wrap">
+      <div class="bubble x1"></div>
+      <div class="bubble x2"></div>
+      <!-- <div class="bubble x3"></div> -->
+      <div class="bubble x4"></div>
+      <!-- <div class="bubble x5"></div> -->
+      <div class="bubble x6"></div>
+      <!-- <div class="bubble x7"></div> -->
+      <div class="bubble x8"></div>
+      <div class="bubble x9"></div>
+      <div class="bubble x10"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.js"></script>
+
+   <script>
+      //set the value from previous 
+      function selectElement(id, valueToSelect) {          
+        let element = document.getElementById(id);
+        element.value = valueToSelect;
+      }
+      //enable others texbox
+      function checkOthers( bizobj) {
+        var value = bizobj.value;
+       // alert("dddd :" +value );
+        if (value == "Others"){
+         document.getElementById("bizothers").style.visibility = "visible";
+        }
+        else{
+           document.getElementById("bizothers").style.visibility = "hidden";
+        }  
+      }
+    </script>
+
+<!-- selectize form -->
+    <script>
+      $(function() {
+        $("#locations").selectize({
+          plugins: ["remove_button"],
+          delimiter: ",",
+          persist: true,
+          create: function(input) {
+            return {
+              value: input,
+              text: input
+            };
+          }
+        });
+
+      });
+    </script>
+    <script>
+      window.onload = function() {
+        // document
+        //     .getElementById("id").value=Date.now() + Math.random()
+    
+        // Check for LocalStorage support.
+
+        if (localStorage) {
+          //locations
+          if(localStorage.getItem("locations")!=null) {
+            let $select = $("#locations").selectize({create:true});
+            let selectizeControl = $select[0].selectize;
+            let newOptions =localStorage.getItem("locations").split(",");
+            let i;
+            for (i = 0; i < newOptions.length; i++) {
+              selectizeControl.addOption({
+                text: newOptions[i],
+                value:newOptions[i]
+              });
+              selectizeControl.addItem(newOptions[i]);
+            }
+          }
+          /* Set the values, now that we have all the options registered. */
+          if(localStorage.getItem("biz")!=null){
+            //biz
+           document.getElementById("biz").selectedIndex = localStorage.getItem("biz");
+          //  $("#biz").selectedIndex=localStorage.getItem("biz");
+            }
+          if(localStorage.getItem("bizothers")!=null && document.getElementById("biz").selectedIndex == 4 ){
+           document.getElementById("bizothers").style.visibility = "visible"; 
+           document.getElementById("bizothers").value=localStorage.getItem("bizothers");
+          }
+          if(localStorage.getItem("website")!=null){
+            document.getElementById("website").value=localStorage.getItem("website");
+          }
+          document
+            .getElementById("customer_details")
+            .addEventListener("submit", function() {
+              let biz = document.getElementById("biz").selectedIndex;
+              if (biz == 4 ){ //only others
+                let bizothers = document.getElementById("bizothers");
+              }else{
+                let bizothers =""
+              }
+              let locations = document.getElementById("locations").value;
+              let website= document.getElementById('website').value;
+
+              localStorage.setItem("biz", biz);
+              localStorage.setItem("bizothers", bizothers);
+              localStorage.setItem("locations", locations);
+              localStorage.setItem("website", website);
+            });
+               
+        }
+      }
+    </script>
+    
+  </body>
+</html>
